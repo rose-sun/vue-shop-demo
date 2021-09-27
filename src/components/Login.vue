@@ -17,14 +17,14 @@
         <el-form-item prop="username">
           <el-input
             v-model="loginForm.username"
-            prefix-icon="el-icon-s-custom"
+            prefix-icon="iconfont icon-user"
           ></el-input>
         </el-form-item>
         <!-- 密码 -->
         <el-form-item prop="password">
           <el-input
             v-model="loginForm.password"
-            prefix-icon="el-icon-lock"
+            prefix-icon="iconfont icon-3702mima"
             show-password
           ></el-input>
         </el-form-item>
@@ -108,6 +108,7 @@ export default {
   height: 300px;
   background: #fff;
   border-radius: 3px;
+  box-shadow: 0 0 3px #fff;
   position: absolute;
   left: 50%;
   top: 50%;
