@@ -4,7 +4,7 @@
     <el-header>
       <div class="header">
         <img src="../assets/pkqq.jpg" alt="" />
-        <span>良品后台电商管理系统</span>
+        <span>良品电商后台管理系统</span>
       </div>
       <el-button type="info" @click="exitLogin">退出</el-button>
     </el-header>
